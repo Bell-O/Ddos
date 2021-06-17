@@ -8,6 +8,7 @@ def clear():
                          shell=True).communicate()
     else:  # Linux and Mac
         print("\033c", end="")
+clear()
 print("by Bell")
 print("")
 print("")
