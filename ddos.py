@@ -34,4 +34,5 @@ def dos():
 
 
 while True:
+    dos()
     print("ddos on ip :" + str(ip) + " in port :" + str(port))
