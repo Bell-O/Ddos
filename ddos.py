@@ -1,4 +1,3 @@
-
 import socket, sys
 import subprocess, platform
 
@@ -9,13 +8,13 @@ def clear():
     else:  # Linux and Mac
         print("\033c", end="")
 clear()
-print("by Bell")
+print("")
 print("")
 print("")
 print("")
 ip = input(str("IP Target : "))
 clear()
-print("by Bell")
+print("")
 print("")
 print("")
 print("")
@@ -35,28 +34,4 @@ def dos():
 
 
 while True:
-     print("")
-     print("")
-     print("")
-     print("")
-     print ("Ddos.   on ip:" + str(ip))
-     clear()
-     print("")
-     print("")
-     print("")
-     print("")
-     print("Ddos..   on ip:" + str(ip))
-     clear()
-     print("")
-     print("")
-     print("")
-     print("")
-     print("Ddos...  on ip:" + str(ip))
-     clear()
-     print("")
-     print("")
-     print("")
-     print("")
-     print("Ddos.... on ip:" + str(ip))
-     clear()
-
+    print("ddos on ip :" + str(ip) + " in port :" + str(port))
